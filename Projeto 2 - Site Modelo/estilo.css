@@ -1,0 +1,83 @@
+body{
+	background: url("_imagens/fundo.png") repeat;
+	font: 16px Arial, Helvetica, sans-serif;
+}
+
+#interface-site-width900-alignedcenter{
+	width:900px;
+	margin: auto;
+}
+
+#menu{
+	padding:18px;
+	background: #c5c5b2;
+}
+
+				a.menu:link, a.menu:visited, a.menu:active {
+					color:#4b566a;
+					text-decoration:none;
+					font-weight:bold;
+					padding:0px 15px;
+				}
+
+				a.menu:hover{
+					text-decoration:underline;
+				}
+
+#conteudo-principal{
+	background: #e8e8d9;
+	padding: 10px;
+	text-align: justify;
+	margin-bottom:-22px; 
+}
+				.titulos{
+					color: #828271;
+					font-size: 1.2em; 
+				}
+
+				.img-campanha{
+					border:10px solid #c3c3ae;
+					
+				}	
+				#formulario{
+					width:600px;
+				}
+				form input,textarea{
+					margin-top:0px;
+					border-radius: 4px;
+					box-shadow: 1px 1px 2px black;
+					background:#c5c5b2;
+				}
+				textarea{
+					height:150px;
+				}
+				input[type=submit]{
+					background:#c5c5b2;
+					margin:10px 0px 10px 0px;
+					color: #4b566a;
+				}
+
+				.titulos-form{
+					color: #828271;
+					font-size: 0.8em; 
+					margin:10px 0px 0px auto;
+				}
+
+#rodape{
+	text-align:center;
+	background: #c5c5b2;
+	margin:auto;
+	height:50px;
+
+
+}
+				a.rodape:link, a.rodape:visited, a.rodape:active {
+					color:#4b566a;
+					text-decoration:none;
+					font-weight:bold;
+					
+				}
+
+				a.rodape:hover{
+					text-decoration:underline;
+				}
